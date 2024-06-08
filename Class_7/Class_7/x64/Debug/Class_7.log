@@ -1,0 +1,109 @@
+﻿  Class_7.cpp
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(64,7): error C2084: функция "Pair::Pair(void)" уже имеет текст реализации
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(14,5):
+  см. предыдущее определение "{ctor}"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(70,7): error C2084: функция "Pair::Pair(int,double)" уже имеет текст реализации
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(9,5):
+  см. предыдущее определение "{ctor}"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(76,12): error C2084: функция "void Pair::operator =(Pair)" уже имеет текст реализации
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(48,10):
+  см. предыдущее определение "="
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(82,12): error C2084: функция "void Pair::operator >>(Pair)" уже имеет текст реализации
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(53,10):
+  см. предыдущее определение ">>"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(88,12): error C2084: функция "void Pair::operator <<(Pair)" уже имеет текст реализации
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(58,10):
+  см. предыдущее определение "<<"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(101,9): error C3861: beg: идентификатор не найден
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(101,9):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Admin\source\repos\Class_7\Class_7.cpp(94,7):
+  	при компиляции шаблона класса "List"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(101,9): error C2065: beg: необъявленный идентификатор
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(108,9): error C3861: beg: идентификатор не найден
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(108,9): error C2065: beg: необъявленный идентификатор
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(140,10): error C2995: List<T>::List(int,T *[]): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(97,5):
+   см. объявление "List<T>::List"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(150,10): error C2995: List<T>::List(List<T> &): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(104,5):
+   см. объявление "List<T>::List"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(160,11): error C2995: List<T>::~List(void): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(111,6):
+   см. объявление "List<T>::~List"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(167,13): error C2995: T &List<T>::operator [](int): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(115,8):
+   см. объявление "List<T>::operator []"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(180,18): error C2995: List<T> List<T>::operator +(const T): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(127,10):
+   см. объявление "List<T>::operator +"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(191,14): error C2995: int List<T>::operator ()(void): шаблон функции уже определен
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(119,9):
+   см. объявление "List<T>::operator ()"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(97,1): error C2333: List<Pair>::List: ошибка в объявлении функции; пропуск основного текста функции
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(97,1):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Admin\source\repos\Class_7\Class_7.cpp(201,16):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "List<Pair>"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(106,9): error C2059: синтаксическая ошибка: 'symbol'
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(106,22): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(107,9): error C2059: синтаксическая ошибка: 'symbol'
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(107,22): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(108,13): error C2059: синтаксическая ошибка: =
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(108,20): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(109,9): error C2059: синтаксическая ошибка: 'symbol'
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(109,20): error C2238: непредвиденные лексемы перед ";"
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(111,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "~"
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(201,23): error C2665: "List<Pair>::List": ни одна перегруженная функция не может преобразовать все типы аргументов
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(97,5):
+  может быть "List<Pair>::List(int,T *[])"
+          with
+          [
+              T=Pair
+          ]
+  	C:\Users\Admin\source\repos\Class_7\Class_7.cpp(201,23):
+  	"List<Pair>::List(int,T *[])": невозможно преобразовать аргумент 2 из "int **" в "T *[]"
+          with
+          [
+              T=Pair
+          ]
+  		C:\Users\Admin\source\repos\Class_7\Class_7.cpp(201,28):
+  		Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(201,23):
+  при попытке сопоставить список аргументов "(int, int **)"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(208,24): error C2665: "List<Pair>::List": ни одна перегруженная функция не может преобразовать все типы аргументов
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(97,5):
+  может быть "List<Pair>::List(int,T *[])"
+          with
+          [
+              T=Pair
+          ]
+  	C:\Users\Admin\source\repos\Class_7\Class_7.cpp(208,24):
+  	"List<Pair>::List(int,T *[])": невозможно преобразовать аргумент 2 из "int **" в "T *[]"
+          with
+          [
+              T=Pair
+          ]
+  		C:\Users\Admin\source\repos\Class_7\Class_7.cpp(208,29):
+  		Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(208,24):
+  при попытке сопоставить список аргументов "(int, int **)"
+  
+C:\Users\Admin\source\repos\Class_7\Class_7.cpp(214,21): error C2039: "Multiply": не является членом "List<Pair>".
+  C:\Users\Admin\source\repos\Class_7\Class_7.cpp(94,7):
+   см. объявление "List<Pair>"
+  
